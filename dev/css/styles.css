@@ -25,20 +25,24 @@ html {
 }
 
 #page-header h1, #page-header h3 {
-        text-align: right;
-        font-weight: 100;
-        letter-spacing: 5px;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 0.1em;
 }
 
 #header-person {
     display: flex;
     flex-flow: column wrap;
-    max-width: 75%;
+    max-width: 72%;
     margin-top: auto;
 }
 
+#header-person h1 {
+    font-size: 2em;
+}
+
 #header-logo {
-    max-width: 80px;
+    max-width: 100px;
     max-height: 120px;
     margin: 0;
 }
@@ -54,6 +58,24 @@ html {
     padding-top: 5px;
 }
 
+.featured-work h3 {
+    padding-top: 5px;
+    font-size: 2em;
+    color: #2d3c49;
+    letter-spacing: 0.07em;
+}
+
+.featured-work header h3 {
+    text-align: left;
+    margin-left: 15px;
+    color: #7d97ad;
+    font-weight: 300;
+} 
+
+.feature p {
+    color: #2d3c49;
+    font-weight: 300;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -78,29 +100,6 @@ html {
     }
 }
 
-/*@media screen and (max-width: 960px) {
-    body {
-        max-width: 900px;
-    }
-
-    .feature {
-        width: calc(33% - 1em);
-        max-width: 100%;
-    }
-
-
-}
-
-@media screen and (min-width: 961px) {
-    body {
-        max-width: 1200px;
-    }
-
-
-
-}
-*/
-
 img {
     display: block;
     max-width: 100%;
@@ -120,7 +119,7 @@ hr {
   clear: both;
   display: block;
   width: 100%;               
-  background-color: grey;
+  background-color: #7d97ad;
   height: 1px;
   margin-top: 10px;
   margin-bottom: 10px;
